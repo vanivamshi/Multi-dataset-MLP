@@ -10,3 +10,8 @@ Features of the MLP Implementation
 5) Weight Initialization - Weights for the main and support datasets are initialized using He initialization, which scales the weights by the square root of the number of input units to improve convergence.
 6) Forward Propagation - The forward pass involves computing activations for the main dataset and support datasets, combining their outputs, and then applying a residual connection before producing the final output.
 7) Backpropagation - The backward pass computes gradients for the main dataset's weights and biases, as well as biases for the support datasets. Weight updates for the main dataset are performed using the calculated gradients, while biases for the support datasets are updated separately.
+
+Modified mathematica equations are given belo.
+![1](https://github.com/user-attachments/assets/26a77819-1efd-47ad-b964-6fcfe1e55dbd)
+![2](https://github.com/user-attachments/assets/9e7cba8c-c188-45ee-b9a5-61b9006b466b)
+![3](https://github.com/user-attachments/assets/c083db78-7bf4-4a33-aa48-38047de01a26)
